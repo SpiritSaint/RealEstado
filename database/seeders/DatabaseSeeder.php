@@ -21,8 +21,5 @@ class DatabaseSeeder extends Seeder
                 'tax' => fake()->uuid(),
                 'role' => 'creator',
             ]);
-
-        User::factory(10)
-            ->create();
     }
 }
